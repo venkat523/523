@@ -1,18 +1,18 @@
 
 <html>
     <head>
-        <title>practise1</title>
+        <title>DineBooking</title>
     </head>
     <body>
         <br>
         <h4 align="center">Dine booking</h4>
-       <div class="form">
+      <center> <div class="form">
          <label>Visitor Name:</label>
         <input type="text" maxlength="20"><br>
         <label>Number of Visitors:</label>
         <input type="number" min="1" max="99"><br>
         <label>Contact number:</label>
-        <input type="number"><br>
+        <input type="tel"><br>
         <label>Email:</label>
         <input type="email"><br>
         <label>Types of Food:</label>
@@ -25,15 +25,16 @@
         <input type="radio" name="room" value="NON AC" default>NON AC<br>
         <label>Venue Preference</label>
         <select >
+            <option>---SELECT---</option>
             <option>Arena</option>
             <option>Vistha</option>
             <option>Maithri</option>
             <option>Magna</option>
             <option>Osis</option>
-            <option>Fiesta</option>
+            <option disabled>Fiesta</option>
         </select><br>
         <input type="submit" value="BOOK">
         <input type="reset" value="RESET">
-        </div>
+        </div></center>
     </body>
 </html>
